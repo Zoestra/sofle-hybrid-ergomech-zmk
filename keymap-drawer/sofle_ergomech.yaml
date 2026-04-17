@@ -55,7 +55,7 @@ layers:
   - LCTRL
   - lower
   - SPACE
-  - SPACE
+  - ENTER
   - raise
   - RCTRL
   - RALT
@@ -156,10 +156,10 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - CLCK
   - PG DN
   - KP 4
