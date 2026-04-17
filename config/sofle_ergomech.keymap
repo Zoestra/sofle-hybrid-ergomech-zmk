@@ -58,7 +58,7 @@
 &kp TAB           &kp Q     &kp W     &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O     &kp P     &kp BSPC
 &mt LCTRL ESCAPE  &kp A     &kp S     &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT         &kp Z     &kp X     &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp C_MUTE        &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp SPACE  &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT  &kp RGUI
+&kp C_MUTE        &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp SPACE  &kp ENTER  &mo RAISE  &kp RCTRL  &kp RALT  &kp RGUI
                                                                        &kp ENTER  &kp RIGHT  &kp UP     &kp LEFT  &kp DOWN
             >;
 
@@ -101,12 +101,12 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans           &trans           &trans           &trans           &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans        &kp PG_UP        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp N0   &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &kp PG_DN        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans   &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans           &trans           &trans           &trans           &trans
-                                                                                  &kp A            &kp B            &kp C            &kp D            &kp E
+&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4  &trans           &trans           &trans           &trans           &trans   &trans
+&trans      &kp INS        &kp PSCRN     &kp K_CMENU    &trans          &trans        &kp PG_UP        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp N0   &trans
+&trans      &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp CLCK      &kp PG_DN        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DEL  &kp BSPC
+&trans      &kp K_UNDO     &kp K_CUT     &kp K_COPY     &kp K_PASTE     &trans        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans   &trans
+&trans      &trans         &trans        &trans         &trans          &trans        &trans           &trans           &trans           &trans           &trans
+                                                                                      &kp A            &kp B            &kp C            &kp D            &kp E
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
