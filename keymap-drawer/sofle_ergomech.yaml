@@ -54,7 +54,7 @@ layers:
   - LALT
   - LCTRL
   - {t: SPACE, h: mirror}
-  - {t: ENTER, h: lower}
+  - lower
   - raise
   - SPACE
   - RCTRL
@@ -191,10 +191,10 @@ layers:
   - UP ARROW
   - DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - END
+  - PG UP
+  - HOME
+  - PG DN
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -303,14 +303,14 @@ layers:
   - ','
   - N
   - N
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
