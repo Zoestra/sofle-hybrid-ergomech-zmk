@@ -1,5 +1,6 @@
 [![Build Status](../../actions/workflows/build.yml/badge.svg)](../../actions)
 [![Download Firmware](https://img.shields.io/badge/Download-Firmware-blue?logo=github)](../../releases/latest)
+[keymap editor](https://nickcoutsos.github.io/keymap-edito
 
 ## Default keymap
 The default keymap of this keyboard can be found here:
