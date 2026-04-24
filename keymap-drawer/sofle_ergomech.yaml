@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default:
-  - '`'
+  - ESCAPE
   - '1'
   - '2'
   - '3'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - BACKSPACE
-  - {t: TAB, h: '5'}
+  - {t: TAB, h: mod}
   - Q
   - W
   - E
@@ -131,22 +131,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - <
   - '>'
   - {t: adjust, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '*'
-  - DELETE
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
   - '}'
@@ -156,22 +156,22 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - KP 4
   - KP 5
   - KP 6
   - '-'
-  - BSPC
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Sft+X
+  - Ctl+Sft+C
+  - Ctl+Sft+V
   - (
   - )
   - KP 1
@@ -202,12 +202,12 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - '&bootloader'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - BT CLR ALL
   - EP TOG
   - RGB HUD
   - RGB HUI
@@ -325,7 +325,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
+  mod:
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
