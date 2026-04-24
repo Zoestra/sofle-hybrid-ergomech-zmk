@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - BACKSPACE
-  - TAB
+  - {t: TAB, h: '5'}
   - Q
   - W
   - E
@@ -326,6 +326,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -333,12 +338,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
