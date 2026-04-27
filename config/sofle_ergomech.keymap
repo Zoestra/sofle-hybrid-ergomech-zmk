@@ -21,7 +21,14 @@
 / {
     // Activate ADJUST layer by pressing raise and lower
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        mirror_raise {
+            if-layers = <4 2>;
+            then-layer = <3>;
+        };
+    };
 
     behaviors {
         mousescroll: mousescroll {
@@ -146,7 +153,7 @@
 &kp DELETE      &kp P          &kp O       &kp I      &kp U   &kp Y         &trans     &trans  &trans  &trans  &trans  &trans
 &kp SQT         &kp SEMICOLON  &kp L       &kp K      &kp J   &kp H         &kp PLUS   &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp SLASH      &kp PERIOD  &kp COMMA  &kp N   &kp N         &kp EQUAL  &trans  &trans  &trans  &trans  &trans
-&trans          &kp ENTER      &trans      &trans     &trans  &trans        &mo 3      &trans  &trans  &trans  &trans
+&trans          &kp ENTER      &trans      &trans     &trans  &trans        &mo 2      &trans  &trans  &trans  &trans
                                                                             &trans     &trans  &trans  &trans  &trans
             >;
 
