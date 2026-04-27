@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default:
-  - ESCAPE
+  - {t: ESCAPE, h: mod}
   - '1'
   - '2'
   - '3'
@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - BACKSPACE
-  - {t: TAB, h: mod}
+  - TAB
   - Q
   - W
   - E
@@ -53,8 +53,8 @@ layers:
   - LGUI
   - LALT
   - LCTRL
-  - {t: SPACE, h: mirror}
-  - lower
+  - SPACE
+  - '&hold_tap_hold'
   - raise
   - SPACE
   - RCTRL
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -249,7 +249,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - {type: held}
   - ''
   - ''
@@ -313,7 +313,7 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
   - _
@@ -326,7 +326,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mod:
-  - '`'
+  - {t: '`', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,7 +338,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
