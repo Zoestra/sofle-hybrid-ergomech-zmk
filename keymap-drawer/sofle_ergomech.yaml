@@ -57,7 +57,7 @@ layers:
   - '&hold_tap_hold'
   - raise
   - SPACE
-  - RCTRL
+  - '&ctrl_adjust'
   - LEFT ARROW
   - RIGHT
   - ENTER
@@ -252,7 +252,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {t: ▽, type: trans}
