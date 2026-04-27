@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default:
-  - {t: ESCAPE, h: mod}
+  - ESCAPE
   - '1'
   - '2'
   - '3'
@@ -52,7 +52,7 @@ layers:
   - PLAY PAUSE
   - LGUI
   - LALT
-  - LCTRL
+  - '&ctrl_mod'
   - SPACE
   - '&hold_tap_hold'
   - raise
@@ -120,8 +120,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -250,7 +250,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -315,8 +315,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -326,7 +326,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mod:
-  - {t: '`', type: held}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
