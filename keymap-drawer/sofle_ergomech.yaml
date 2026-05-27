@@ -187,7 +187,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '0'
+  - KP 0
   - UP ARROW
   - DOWN
   - {t: ▽, type: trans}
