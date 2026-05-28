@@ -108,8 +108,8 @@ layers:
   - +
   - '~'
   - '`'
-  - +
-  - '='
+  - KP EQUAL
+  - KP PLUS
   - ;
   - ':'
   - \
@@ -127,9 +127,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+Alt+KP PLUS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Alt+KP MINUS
   raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -142,7 +142,7 @@ layers:
   - {t: ▽, type: trans}
   - +
   - '='
-  - LANGUAGE 2
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,8 +188,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - KP 0
-  - UP ARROW
-  - DOWN
+  - KP DOT
+  - LANGUAGE 2
   - {t: ▽, type: trans}
   - END
   - PG UP
