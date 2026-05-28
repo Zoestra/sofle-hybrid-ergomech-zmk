@@ -93,12 +93,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp F1     &kp F2     &kp F3    &kp F4     &kp F5     &kp F6     &kp F7     &kp F8     &kp F9     &kp F10   &kp F11
-&kp GRAVE       &kp N1     &kp N2     &kp N3    &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0    &kp F12
-&kp ENTER       &kp EXCL   &kp AT     &kp HASH  &kp DLLR   &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp PIPE
-&trans          &kp EQUAL  &kp MINUS  &kp PLUS  &kp TILDE  &kp GRAVE  &kp PLUS   &kp EQUAL  &kp SEMI   &kp COLON  &kp BSLH  &trans
-&trans          &trans     &trans     &trans    &trans     &trans     &kp MINUS  &kp UNDER  &trans     &trans     &trans
-                                                                      &trans     &trans     &trans     &trans     &trans
+&studio_unlock  &kp F1     &kp F2     &kp F3    &kp F4     &kp F5     &kp F6        &kp F7       &kp F8               &kp F9     &kp F10               &kp F11
+&kp GRAVE       &kp N1     &kp N2     &kp N3    &kp N4     &kp N5     &kp N6        &kp N7       &kp N8               &kp N9     &kp N0                &kp F12
+&kp ENTER       &kp EXCL   &kp AT     &kp HASH  &kp DLLR   &kp PRCNT  &kp CARET     &kp AMPS     &kp ASTRK            &kp LPAR   &kp RPAR              &kp PIPE
+&trans          &kp EQUAL  &kp MINUS  &kp PLUS  &kp TILDE  &kp GRAVE  &kp KP_EQUAL  &kp KP_PLUS  &kp SEMI             &kp COLON  &kp BSLH              &trans
+&trans          &trans     &trans     &trans    &trans     &trans     &kp MINUS     &kp UNDER    &trans               &trans     &trans
+                                                                      &trans        &trans       &kp LC(LA(KP_PLUS))  &trans     &kp LC(LA(KP_MINUS))
             >;
 
             sensor-bindings =
@@ -117,11 +117,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans  &trans         &trans         &trans         &kp LESS_THAN         &kp GREATER_THAN       &tog 3           &trans           &kp PLUS         &kp EQUAL  &kp LANGUAGE_2
-&trans  &trans  &trans         &trans         &trans         &kp LBRC              &kp RBRC               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
-&trans  &trans  &trans         &trans         &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
-&trans  &trans  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
-&trans  &trans  &trans         &trans         &trans         &trans                &trans                 &trans           &kp KP_NUMBER_0  &kp UP_ARROW     &kp DOWN
+&trans  &trans  &trans         &trans         &trans         &kp LESS_THAN         &kp GREATER_THAN       &tog 3           &trans           &kp PLUS         &kp EQUAL       &trans
+&trans  &trans  &trans         &trans         &trans         &kp LBRC              &kp RBRC               &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH       &trans
+&trans  &trans  &trans         &trans         &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &trans
+&trans  &trans  &kp LC(LS(X))  &kp LC(LS(C))  &kp LC(LS(V))  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &trans
+&trans  &trans  &trans         &trans         &trans         &trans                &trans                 &trans           &kp KP_NUMBER_0  &kp KP_DOT       &kp LANGUAGE_2
                                                                                    &trans                 &kp END          &kp PG_UP        &kp HOME         &kp PG_DN
             >;
 
