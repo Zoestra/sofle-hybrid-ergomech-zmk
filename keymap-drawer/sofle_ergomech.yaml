@@ -127,9 +127,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Alt+KP PLUS
+  - Ctl+Sft+KP PLUS
   - {t: ▽, type: trans}
-  - Ctl+Alt+KP MINUS
+  - Ctl+Sft+KP MINUS
   raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
