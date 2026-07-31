@@ -55,7 +55,7 @@ layers:
   - '&ctrl_mod'
   - SPACE
   - '&hold_tap_hold'
-  - raise
+  - '&raise_toggle'
   - SPACE
   - '&ctrl_adjust'
   - LEFT ARROW
@@ -185,7 +185,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 0
   - KP DOT
@@ -214,7 +214,7 @@ layers:
   - RGB SAD
   - RGB SAI
   - RGB EFF
-  - ''
+  - OUT TOG
   - ''
   - ''
   - ''
